@@ -2,7 +2,7 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 
 const app = new express();
-const schema = require('./schema.js');
+const schema = require('./asyncSchema.js');
 app.use(
   '/graphql',
   graphqlHTTP({
