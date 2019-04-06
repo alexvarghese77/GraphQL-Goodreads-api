@@ -16,14 +16,12 @@ This is a simple project explain the basic use of a GrqphQL from a traditional x
 
 > query{
 > author(id:4573983) {
-
-    name,
-    books {
-      title,
-      isbn
-    }
-
-}
-}
+> name,
+> books {
+> title,
+> isbn
+> }
+> }
+> }
 
 make change in the onbject properties of the query and have some fun
